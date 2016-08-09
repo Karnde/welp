@@ -190,6 +190,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201608091748207_Fresh Start.cs" />
+    <Compile Include="Migrations\201608091748207_Fresh Start.Designer.cs">
+      <DependentUpon>201608091748207_Fresh Start.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Manage\App_Start\BundleConfig.cs" />
     <Compile Include="Views\Manage\App_Start\FilterConfig.cs" />
     <Compile Include="Views\Manage\App_Start\IdentityConfig.cs" />
@@ -203,10 +207,6 @@
     <Compile Include="Controllers\RatingsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201608041846048_Initial.cs" />
-    <Compile Include="Migrations\201608041846048_Initial.Designer.cs">
-      <DependentUpon>201608041846048_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -310,12 +310,12 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201608041846048_Initial.resx">
-      <DependentUpon>201608041846048_Initial.cs</DependentUpon>
-    </EmbeddedResource>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <EmbeddedResource Include="Migrations\201608091748207_Fresh Start.resx">
+      <DependentUpon>201608091748207_Fresh Start.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

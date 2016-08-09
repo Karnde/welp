@@ -7,13 +7,13 @@ namespace WelpApp.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Initial : IMigrationMetadata
+    public sealed partial class FreshStart : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(FreshStart));
         
         string IMigrationMetadata.Id
         {
-            get { return "201608041846048_Initial"; }
+            get { return "201608091748207_Fresh Start"; }
         }
         
         string IMigrationMetadata.Source
